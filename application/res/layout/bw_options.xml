@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+>
+
+    <LinearLayout
+        android:id="@+id/bw_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bw_adddata"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Add Data" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bw_addpicture"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Add Picture" />
+
+    <Button
+        android:id="@+id/bw_addvideo"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:text="Add Video" />
+
+    <Button
+        android:id="@+id/bw_addtracks"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:text="Add Tracks" />
+
+    <Button
+        android:id="@+id/bw_save"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="Save" />
+
+</LinearLayout>

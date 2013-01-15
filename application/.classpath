@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="nl/sogeti/android/gpstracker/actions/|nl/sogeti/android/gpstracker/actions/tasks/|nl/sogeti/android/gpstracker/actions/utils/|nl/sogeti/android/gpstracker/adapter/|nl/sogeti/android/gpstracker/breadcrumbs/|nl/sogeti/android/gpstracker/db/|nl/sogeti/android/gpstracker/logger/|nl/sogeti/android/gpstracker/oauth/|nl/sogeti/android/gpstracker/streaming/|nl/sogeti/android/gpstracker/util/|nl/sogeti/android/gpstracker/viewer/|nl/sogeti/android/gpstracker/viewer/map/|nl/sogeti/android/gpstracker/viewer/map/overlay/|nl/sogeti/android/gpstracker/widget/|nl/sogeti/android/gpstracker/|nl/sogeti/android/|nl/sogeti/|nl/" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK">
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="org/apache/http/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/signpost-commonshttp4"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/httpcore"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/signpost-core"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/httpmime"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

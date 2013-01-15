@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tagslist>
+<tags category="type" label="Type">
+<tag text="Beneficiary's Photo" label="Name" type="text" required="Y" options=""/>
+<tag text="Beneficiary's Family Photo" label="Name of Father" type="text" required="Y" options=""/>
+<tag text="Beneficiary's House Photo" label="Caste" type="choice" required="Y" options="SC|ST|OBC|GEN"/>
+
+</tags>
+</tagslist>
+

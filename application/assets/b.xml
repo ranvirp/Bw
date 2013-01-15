@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlgui>
+<form id="3" name="Beneficiary" submitTo="http://192.168.1.4/xmlgui/xmlgui1-post.php" >
+<field name="name" label="Name" type="text" required="Y" options=""/>
+<field name="rname" label="Name of Father" type="text" required="Y" options=""/>
+<field name="caste" label="Caste" type="choice" required="Y" options="SC|ST|OBC|GEN"/>
+<field name="schemecode" label="Scheme Code:" type="text" required="Y" options=""/>
+<field name="agencycode" label="Agency Code:" type="text" required="Y" options=""/>
+
+</form>
+</xmlgui>
+

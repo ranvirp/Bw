@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlgui>
+<form id="3" name="Works" submitTo="http://192.168.1.4/xmlgui/xmlgui1-post.php" >
+<field name="name" label="Name of Work" type="text" required="Y" options=""/>
+<field name="tcost" label="Cost of Work(in thousands)" type="numeric" required="Y" options=""/>
+<field name="finyear" label="Fin. year" type="choice" required="Y" options="2009-10|2010-11|2011-12|2012-13|2013-14"/>
+<field name="schemecode" label="Scheme Code:" type="text" required="Y" options=""/>
+<field name="agencycode" label="Agency Code:" type="text" required="Y" options=""/>
+
+</form>
+</xmlgui>
+
